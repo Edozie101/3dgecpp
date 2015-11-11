@@ -23,7 +23,7 @@ int baseStringToValue(string digitstring, int base) {
         cout << " "  << output << " is the output next digit \n" ;
         cout << " " << currentbase<< " is the current base that will times this digit \n";
         cout << " " << finaloutput << " is the number version of the output \n ";
-
+ 
         finaloutput = finaloutput *  currentbase;
         n ++;
         cout<< " " << finaloutput << " is the final output \n ";
